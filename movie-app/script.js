@@ -5,7 +5,7 @@ const main = document.getElementById("main");
 const form = document.getElementById("form");
 const search = document.getElementById("search");
 // Initially get fav movies
-//getMovies(APIURL);
+/*getMovies(APIURL);
 
 async function getMovies(url) {
     const resp = await fetch(url);
@@ -35,7 +35,7 @@ function showMovies(movies) {
         `;
         main.appendChild(movieEl);
     });
-}
+}*/
 function getClassByRate(vote){
     if (vote>=8){
         return "green";
