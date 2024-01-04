@@ -47,6 +47,7 @@ function getClassByRate(vote){
         return "red";
     }
 }
+
 form.addEventListener("submit",(e)=>{
     e.preventDefault();
     const searchTerm = search.value;
